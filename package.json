@@ -1,0 +1,13 @@
+{
+  "name": "family-quiz",
+  "version": "1.0.0",
+  "description": "Kahoot-style family quiz app with Hebrew RTL support",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm run build"
+  }
+}

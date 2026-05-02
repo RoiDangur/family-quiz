@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg-primary: #1a0533;
+  --bg-card: #3a1a6e;
+  --bg-card-hover: #4a2588;
+  --text-primary: #ffffff;
+  --text-secondary: #c4b5d9;
+  --text-muted: #8b7aa8;
+  --accent: #ff6b35;
+  --gold: #FFD700;
+  --red: #e74c3c;
+  --blue: #3498db;
+  --yellow: #f39c12;
+  --green: #27ae60;
+  --purple: #6C5CE7;
+  --radius: 14px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: 'Heebo', sans-serif;
+  background: var(--bg-primary);
+  background-image: radial-gradient(ellipse at 20% 50%, rgba(102,51,153,0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,107,53,0.1) 0%, transparent 50%);
+  color: var(--text-primary);
+  direction: rtl;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+::placeholder { color: var(--text-muted); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+.animate-in { animation: fadeIn 0.4s ease-out; }

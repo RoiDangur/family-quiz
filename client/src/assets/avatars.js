@@ -1,0 +1,18 @@
+export const AVATARS = [
+  { id: 'cat', name: 'חתול', emoji: '🐱', bg: '#FF9F43' },
+  { id: 'dog', name: 'כלב', emoji: '🐶', bg: '#FFEAA7' },
+  { id: 'fox', name: 'שועל', emoji: '🦊', bg: '#E17055' },
+  { id: 'owl', name: 'ינשוף', emoji: '🦉', bg: '#A29BFE' },
+  { id: 'penguin', name: 'פינגווין', emoji: '🐧', bg: '#636E72' },
+  { id: 'lion', name: 'אריה', emoji: '🦁', bg: '#FDCB6E' },
+  { id: 'rabbit', name: 'ארנב', emoji: '🐰', bg: '#FD79A8' },
+  { id: 'panda', name: 'פנדה', emoji: '🐼', bg: '#DFE6E9' },
+  { id: 'robot', name: 'רובוט', emoji: '🤖', bg: '#74B9FF' },
+  { id: 'alien', name: 'חייזר', emoji: '👽', bg: '#55EFC4' },
+  { id: 'wizard', name: 'קוסם', emoji: '🧙', bg: '#6C5CE7' },
+  { id: 'ninja', name: "נינג'ה", emoji: '🥷', bg: '#2d3436' },
+  { id: 'bear', name: 'דוב', emoji: '🐻', bg: '#A0522D' },
+  { id: 'unicorn', name: 'חד קרן', emoji: '🦄', bg: '#E8DAEF' },
+  { id: 'dragon', name: 'דרקון', emoji: '🐉', bg: '#00B894' },
+  { id: 'octopus', name: 'תמנון', emoji: '🐙', bg: '#E056A0' },
+];
